@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./images/PTC.png" alt="" />
+        <span>Pateros Technological College</span>
+      </div>
+
+      <input type="checkbox" id="menuCheck" />
+      <label for="menuCheck" class="menuBtn">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+      
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <div class="contact-wrapper">
+        <h2>Contact Us</h2>
+        <form action="#">
+          <div class="input-box">
+            <label>Name</label>
+            <input type="text" placeholder="Enter your Name" />
+          </div>
+          <div class="input-box">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" />
+          </div>
+          <div class="input-box">
+            <label>Message</label>
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Enter your message"
+            ></textarea>
+            <!-- <input type="text" placeholder="Enter your message" /> -->
+          </div>
+          <div class="input-box">
+            <label>Send to</label>
+            <select>
+              <option>Department...</option>
+              <option>Registrar</option>
+              <option>Guidance</option>
+              <option>MIS</option>
+              <option>Admission</option>
+              <option>Center for Student Journey and Success</option>
+            </select>
+          </div>
+          <div class="input-check">
+            <input type="checkbox" />
+            <span>I have read and accept the Terms of Service</span>
+          </div>
+          <button>Submit</button>
+        </form>
+      </div>
+
+      <div class="map-wrapper">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d574.0622404516183!2d121.06892513052549!3d14.552567163216127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8863e902d1d%3A0xbc94e9f2b83c223a!2s205%20College%20St%2C%20Pateros%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1700376017701!5m2!1sen!2sph"
+          width="650"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!4v1700376274849!6m8!1m7!1sR_dswg0NhMlNYgrdPw0MSA!2m2!1d14.55277221159349!2d121.069082243379!3f138.1349744567226!4f2.302932250270217!5f0.7820865974627469"
+          width="650"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <h2>Pateros Technological College</h2>
+      <p>205 College Street, Sto. Rosario-Kanluran Pateros, Metro Manila</p>
+      <div class="box">
+        <a href="http://www.paterostechnologicalcollege.edu.ph/"
+          ><img src="./images/PTC.png"
+        /></a>
+        <a href="https://ched.gov.ph/"><img src="./images/ched-logo.png" /></a>
+        <a href="https://pateroscity.net/"><img src="./images/pateros-logo.png" /></a>
+        <a href="http://ww1.alcucoa.org.ph/"><img src="./images/alcu-logo.png" /></a>
+        <a href="https://www.deped.gov.ph/"><img src="./images/deped-logo.png" /></a>
+      </div>
+      <hr />
+    </footer>
+  </body>
+</html>
